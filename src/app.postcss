@@ -1,3 +1,96 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.parallax-section {
+    position: relative;
+    height: 4-h-lvh;
+    background-size: cover;
+    background-position: center;
+    transition: background-position 0.2s ease-out;
+    overflow: hidden;
+}
+
+.parallax-bottom {
+    position: relative;
+    height: 60vh;
+    background-image: url('https://www.everwallpaper.co.uk/cdn/shop/products/London-night-wallpaper-mural-plain.jpg?v=1650434291');
+    background-size: cover;
+    background-position: center;
+    transition: background-position 0.2s ease-out;
+    overflow: hidden;
+}
+
+.parallax-last {
+    position: relative;
+    height: 800px;
+    
+    background-size: cover;
+    background-position: center;
+    transition: background-position 0.2s ease-out;
+    overflow: hidden;
+}
+
+hr {
+    border: none;
+    height: 7px;
+    color: #333;
+    background-color: #333;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
+.fadeInAnimated {
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+}
+
+.fadeIn1s {
+    opacity: 0;
+    animation: fadeIn 10s forwards;
+}
+
+.fadeIn2s {
+    opacity: 0;
+    animation: fadeIn 20s forwards;
+}
+
+.fadeIn3s {
+    opacity: 0;
+    animation: fadeIn 25s forwards;
+}
+
+.fadeIn4s {
+    opacity: 0;
+    animation: fadeIn 30s forwards;
+}
+
+.about-us-container {
+    @apply h-80 flex justify-center items-center;
+}
+
+.about-us-content {
+    @apply bg-white text-center p-8;
+}
+
+.about-us-title {
+    @apply text-black text-xl font-semibold mb-6 text-5xl fadeInAnimated;
+    color: #00305B;
+}
+
+.about-us-paragraph {
+    @apply fadeInAnimated;
+    color: #00305B;
+}
+
+.fade-in {
+    opacity: 10;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in:not(.fade-in) {
+    opacity: 0;
+}
