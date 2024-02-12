@@ -6,6 +6,7 @@
 	import Earth from "../components/Earth.svelte";
 
 	import About from "../components/About.svelte";
+    import Info from "../components/Info.svelte";
 
 
 
@@ -46,7 +47,6 @@
 	};
 </script>
 
-
 <svelte:head>
 	<title>
 		HOME | Allegra-Consult Ltd
@@ -70,16 +70,19 @@
 	</div>
 </div>
 
-
 {#if !deviceMobile}
 	<Earth />
 	<About />
 	<div class="london-background"></div>
-	<Contact />
+
 {:else}
-	<br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br>
 	<About/>
-	<br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br>
 	<div class="london-background"></div>
-	<Contact />
+
 {/if}
+
+<Info />
+
+<Contact />
