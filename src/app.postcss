@@ -2,41 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.parallax-section {
+
+.london-background {
     position: relative;
-    height: 4-h-lvh;
+    height: 80vh;
+    background-image: url('/london.jpg');
     background-size: cover;
     background-position: center;
     transition: background-position 0.2s ease-out;
     overflow: hidden;
 }
 
-.parallax-bottom {
-    position: relative;
-    height: 60vh;
-    background-image: url('https://www.everwallpaper.co.uk/cdn/shop/products/London-night-wallpaper-mural-plain.jpg?v=1650434291');
-    background-size: cover;
-    background-position: center;
-    transition: background-position 0.2s ease-out;
-    overflow: hidden;
-}
-
-.parallax-last {
-    position: relative;
-    height: 800px;
-    
-    background-size: cover;
-    background-position: center;
-    transition: background-position 0.2s ease-out;
-    overflow: hidden;
-}
-
-hr {
-    border: none;
-    height: 7px;
-    color: #333;
-    background-color: #333;
-}
 
 @keyframes fadeIn {
     from { opacity: 0 }

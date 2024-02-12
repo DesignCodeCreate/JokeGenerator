@@ -17,9 +17,9 @@
 		"tailwindcss": "^3.4.1",
 		"vite": "^5.0.3"
 	},
-	
 	"type": "module",
 	"dependencies": {
+		"svelte-device-info": "^1.0.4",
 		"svelte-scrollto": "^0.2.0"
 	}
 }
