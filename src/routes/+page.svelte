@@ -11,6 +11,7 @@
 	import Earth from "../components/Earth.svelte";
 	import Contact from "../components/Contact.svelte";
 	import Footer from "../components/Footer.svelte";
+    import BackToTop from "../components/BackToTop.svelte";
 
 	let deviceMobile = true;
 
@@ -99,3 +100,5 @@
 
 <Contact />
 <Footer />
+
+<BackToTop />

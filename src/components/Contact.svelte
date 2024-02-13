@@ -42,7 +42,7 @@
         </div>
       </div>
       <div class="mt-10">
-        <button type="submit" class="bg-[#A284B6] block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-extrabold shadow-sm hover:bg-violet-500 focus-visible:outline focus-visible:outline-2 text-white focus-visible:outline-offset-2 focus-visible:outline-violet-900">Submit</button>
+        <button type="submit" class="bg-[#A284B6] block w-full rounded-md px-3.5 py-2.5 text-center text-sm font-extrabold shadow-sm hover:bg-violet-500 focus-visible:outline focus-visible:outline-2 text-white focus-visible:outline-offset-2 focus-visible:outline-violet-900">Submit</button>
       </div>
       <input type="hidden" name="redirectTo" value="https://allegra-consult.uk">
     </form>
