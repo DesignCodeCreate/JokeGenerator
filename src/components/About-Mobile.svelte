@@ -1,6 +1,6 @@
 <script>
     export let text = {
-		title: "ABOUT US",
+		title: "About us",
 		paragraphs: [
 			"ALLEGRA-Consult Ltd offers advice to management and operating partner teams looking to align business models with capital providers. We specialize in bespoke service, working with senior management and boards of directors of companies to assure successful capital-raising that satisfies their long-term objectives. This can mean, in certain instances, constructing networks of affiliated partners to increase the value of a company. But it always centers on practical deal advice that marries our clients with precisely the right capital providers to assure the best match for their corporate culture and capital requirements.",
 			"ALLEGRA-Consult Ltd is actively partnered with capital groups and established buy-side asset managers and works closely with major bulge-bracket banking institutions, offering counsel on myriad business pursuits - embracing everything from capital raising, legal and regulatory guidance to assisting on operational set-up and restructuring in front - to back - office trading capabilities.",
@@ -10,11 +10,14 @@
 
 </script>
 
-<div class="about-us-container">
-    <div class="about-us-content">
-        <h1 class="about-us-title">{text.title}</h1>
+
+
+<div class="h-80;">
+    <div class="bg-white text-center p-8; px-10">
+        <h1 class="text-black font-semibold mb-6 text-5xl fadeInAnimated;">{text.title}</h1>
+        <br>
         {#each text.paragraphs as paragraph (paragraph)}
-            <p class="about-us-paragraph">{paragraph}</p>
+            <p class="fadeInAnimated text-justify">{paragraph}</p>
             <br>
         {/each}
     </div>
