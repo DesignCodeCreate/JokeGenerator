@@ -18,53 +18,53 @@
 
 <div style="z-index:1" class="absolute mt-[-50%] left-80 transform -translate-x-1/2 -translate-y-1/2 text-center">
     <div class="shadow-md mb-4 p-10 bg-[#00000] opacity-100 font-extrabold">
-        <p class="text-justify hover:text-3xl hover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white">Working alliances</p>
+        <p class="text-justify hover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white">Working alliances</p>
     </div>
 </div>
 
 <div style="z-index:1" class="absolute mt-[-40%] left-64 transform -translate-x-1/2 -translate-y-1/2 text-center">
     <div class="shadow-md mb-4 p-10 bg-[#00000] opacity-100 font-extrabold">
-        <p class="text-justify hover:text-3xl hover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white">Business <br> development</p>
+        <p class="text-justify hover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white">Business <br> development</p>
     </div>
 </div>
 
 <div style="z-index:1" class="absolute mt-[-22%] left-56 transform -translate-x-1/2 -translate-y-1/2 text-center">
     <div class="shadow-md mb-4 p-10 bg-[#00000] opacity-100 font-extrabold">
-        <p class="text-justify hover:text-3xl hover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white" >Building tech</p>
+        <p class="text-justify hover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white" >Building tech</p>
     </div>
 </div>
 
 <div style="z-index:1" class="absolute mt-[-12%] left-72 transform -translate-x-1/2 -translate-y-1/2 text-center">
     <div class="shadow-md mb-4 p-10 bg-[#00000] opacity-100 font-extrabold">
-        <p class="text-justify hover:text-3xl hover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white">Hands on</p>
+        <p class="text-justify hover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white">Hands on</p>
     </div>
 </div>
 
 
 <div style="z-index:1" class="absolute mt-[-50%] right-32 transform -translate-x-1/2 -translate-y-1/2 text-center">
     <div class="shadow-md mb-4 p-10 bg-[#00000] opacity-100 font-extrabold">
-        <p class="text-justify hover:text-3xl hover:text-[#A284B6]  fadeIn2s  dark:text-slate-400 text-xl dark:text-white">Guiding clients <br> as partners </p>
+        <p class="text-justify hover:text-[#A284B6]  fadeIn2s  dark:text-slate-400 text-xl dark:text-white">Guiding clients <br> as partners </p>
     </div>
 </div>
 
 
 <div style="z-index:1" class="absolute mt-[-40%] right-2 transform -translate-x-1/2 -translate-y-1/2 text-center">
     <div class="shadow-md mb-4 p-10 bg-[#00000] opacity-100 font-extrabold">
-        <p class="text-justify hover:text-3xl hover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white">Tailoring counsel <br> to specific needs </p>
+        <p class="text-justify hover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white">Tailoring counsel <br> to specific needs </p>
     </div>
 </div>
 
 
 <div style="z-index:1" class="absolute mt-[-22%] transform right-14 -translate-x-1/2 -translate-y-1/2 text-center">
     <div class="shadow-md mb-4 p-10 bg-[#00000] opacity-100 font-extrabold">
-        <p class="text-justify hover:text-3xl hover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white">Introducing <br> relationships</p>
+        <p class="text-justify hover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white">Introducing <br> relationships</p>
     </div>
 </div>
 
 
 <div style="z-index:1" class="absolute mt-[-12%] right-20 transform -translate-x-1/2 -translate-y-1/2 text-center">
     <div class="shadow-md mb-4 p-10 bg-[#00000] opacity-100 font-extrabold">
-        <p class="text-justify hover:text-3xl hover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white">Raising capital</p>
+        <p class="text-justifyhover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white">Raising capital</p>
     </div>
 </div>
 
