@@ -1,12 +1,12 @@
 
-<div class="z-20 isolate bg-white px-6 py-8 sm:py-12 lg:px-8">
+<div class="z-20 bg-white px-6 py-8 sm:py-12 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Connect with us</h2>
       <br>
       <p class="mt-2 text-lg leading-8 text-gray-600">For enquiries, please contact ALLEGRA-Consult Ltd by filling in the following form. One of our directors will revert as soon as possible. </p>
     </div>
     <form action="https://api.staticforms.xyz/submit" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-18">
-        <input type="hidden" name="accessKey" value="4282a14a-ff0c-4307-948a-427d8e7e8130"> <!-- Required -->
+        <input type="hidden" name="accessKey" value="4282a14a-ff0c-4307-948a-427d8e7e8130">
 
 
         <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
