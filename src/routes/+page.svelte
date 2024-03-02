@@ -12,14 +12,18 @@
 	import Contact from "../components/Contact.svelte";
 	import Footer from "../components/Footer.svelte";
     import BackToTop from "../components/BackToTop.svelte";
+    import MenuBox from "../components/MenuBox.svelte";
+
 
 	let deviceMobile = true;
+	let menuBox = false;
 
 	function handleScroll() {
 		scrollY = window.scrollY;
 	}
 
 	onMount(() => {
+
 		var a;
 		var answer = document.getElementById("result");
 		function isMobile() {
@@ -40,9 +44,38 @@
 		}
 
 		deviceMobile = isMobile();
-
-	
 	});
+
+	function scrollIntoView(target) {
+		const el = document.querySelector(target);
+		if (!el) return;
+		el.scrollIntoView({
+			behavior: 'smooth'
+		});
+
+	}
+
+	function elementClickCallback(event) {
+		switch (event.detail) {
+			case "Home": {
+				window.scrollTo({
+					top: 0,
+					left: 0,
+					behavior: "smooth",
+				});
+				break;
+			}
+			case "About": {
+				scrollIntoView("#aboutUs");
+				break;
+			}
+			case "Contact": {
+				scrollIntoView("#contactUs");
+
+				break;
+			}
+		}
+	}
 
 	const scrollToBottom = async (node) => {
 		node.scroll({ top: node.scrollHeight, behavior: "smooth" });
@@ -61,44 +94,41 @@
 
 <br /><br /><br /><br />
 
-<div
-	class="mx-auto w-full"
-	style="top: 0; left: 0; width: 100%; text-align: center; margin-top: 0; position: fixed; z-index: 100;"
->
+<div class="mx-auto w-full text-center w-full top-0 left-0 z-40 fixed mt-0">
 	<div class="text-slate-50 dark:bg-slate-50 bg-white shadow-md p-4 mb-4">
-		<div style="display:inline-block;">
-			<div
-				style="display: flex; transform text-align:center; align-items: center;"
-			>
-				<img alt="Allegra Icon" src="/allegra-icon.png" />
-				<h1
-					style="color:#A284B6;"
-					class="fadeInAnimated text-4xl"
-				>
-					<b>ALLEGRA-Consult Ltd</b>
-				</h1>
+		<div dir="rtl">
+			<MenuBox menuBox={menuBox} on:elementClicked={elementClickCallback}/>
+			<div class="inline-block">
+				<div class="flex text-center items-center">
+					<img alt="Allegra Icon" src="/allegra-icon.png" />
+					<h1 class="text-[#A284B6] fadeInAnimated text-4xl">
+						<b>ALLEGRA-Consult Ltd</b>
+					</h1>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
 
+
+
 {#if !deviceMobile}
 	<Earth />
-	<AboutDesktop />
+	<div id="aboutUs"><AboutDesktop/></div>
 	<Spider />
 	<div class="london-background"></div>
 	<InfoDesktop />
-
 {:else}
 	<br />
-	<AboutMobile />
+	<div id="aboutUs"><AboutMobile /></div>
+	<br />
 	<div class="london-background"></div>
 	<br /><br /><br /><br /><br />
 	<InfoMobile />
 {/if}
 
-<Contact />
-<Footer />
 
+<div id="contactUs"><Contact /></div>
+<Footer />
 <BackToTop />

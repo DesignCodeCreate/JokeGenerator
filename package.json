@@ -14,6 +14,7 @@
 		"autoprefixer": "^10.4.16",
 		"flowbite": "^2.2.1",
 		"flowbite-svelte": "^0.44.23",
+		"phosphor-svelte": "^1.4.2",
 		"postcss": "^8.4.33",
 		"svelte": "^4.2.7",
 		"tailwindcss": "^3.4.1",

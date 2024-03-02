@@ -7,14 +7,11 @@
 			"ALLEGRA-Consult Ltd's directors sit on the boards of numerous firms - most notably in the technology and fintech spaces. They also formally advise governments, central banks and capital market associations on trading, technology, data, cybersecurity, regulation and business - and how each inter-connect to affect capital market structure development."
 		]
 	};
-
 </script>
 
-
-
-<div class="h-80;">
-    <div class="bg-white text-center p-8; px-10">
-        <h1 class="text-black font-semibold mb-6 text-5xl fadeInAnimated;">{text.title}</h1>
+<div class="h-80">
+    <div class="bg-white text-center p-8 px-10 space-y-8">
+        <h1 class="text-black font-semibold mb-6 text-5xl fadeInAnimated">{text.title}</h1>
         <br>
         {#each text.paragraphs as paragraph (paragraph)}
             <p class="fadeInAnimated text-justify">{paragraph}</p>
