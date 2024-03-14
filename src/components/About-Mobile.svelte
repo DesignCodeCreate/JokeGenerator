@@ -9,7 +9,7 @@
 	};
 </script>
 
-<div class="h-80">
+<div>
     <div class="bg-white text-center p-8 px-10 space-y-8">
         <h1 class="text-black font-semibold mb-6 text-5xl fadeInAnimated">{text.title}</h1>
         <br>

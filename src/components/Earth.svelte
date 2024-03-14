@@ -58,6 +58,6 @@
 
 <div class="z-10 absolute mt-[-12%] right-20 transform -translate-x-1/2 -translate-y-1/2 text-center">
     <div class="shadow-md mb-4 p-10 bg-[#00000] opacity-100 font-extrabold">
-        <p class="text-justifyhover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white">Raising capital</p>
+        <p class="text-justify hover:text-[#A284B6] fadeIn2s dark:text-slate-400 text-xl dark:text-white">Raising capital</p>
     </div>
 </div>
