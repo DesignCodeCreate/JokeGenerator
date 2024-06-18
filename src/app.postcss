@@ -1,3 +1,59 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.london-background {
+    position: relative;
+    height: 100vh;
+    background-image: url('/london.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: background-position 0.2s ease-out;
+    overflow: hidden;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0 }
+    to { opacity: 1 }
+}
+
+.fadeInAnimated {
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+}
+
+.fadeInMenu {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+.fadeIn1s {
+    opacity: 0;
+    animation: fadeIn 10s forwards;
+}
+
+.fadeIn2s {
+    opacity: 0;
+    animation: fadeIn 20s forwards;
+}
+
+.fadeIn3s {
+    opacity: 0;
+    animation: fadeIn 25s forwards;
+}
+
+.fadeIn4s {
+    opacity: 0;
+    animation: fadeIn 30s forwards;
+}
+
+.fade-in {
+    opacity: 10;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in:not(.fade-in) {
+    opacity: 0;
+}
